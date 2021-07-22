@@ -1,3 +1,4 @@
+
 import GetCountry from "./GetCountry";
 
 const languages = []; //languages namelerini tutan dizi
@@ -18,7 +19,7 @@ const GetLanguages = () => {
 const GetLanguageName = () => {
   //languages dizisindeki name değerini alma işlemi
   const CountryLanguages = GetLanguages();
-
+  languages.splice(0,languages.length);
   CountryLanguages.forEach((data) => {
     data.forEach((languageName) => {
       languages.push(languageName.name);
@@ -34,9 +35,10 @@ const GetUniqueLanguage = () => {
   return uniqueLanguages;
 };
 
-const LanguagesAmount = () => {
+const LanguagesAmount =()=> {
   //en çok konuşulan dilleri filtreleyip sıralama işlemi
-
+  mostTenLang.splice(0,mostTenLang.length);
+  mostLanguages.splice(0,mostLanguages.length);
   GetLanguageName();
   const uniqueLang = GetUniqueLanguage();
   const mostTen = [];

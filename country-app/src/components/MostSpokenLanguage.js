@@ -1,7 +1,10 @@
+
 import LanguagesAmount from "../api/GetLanguages";
 
+
 const MostSpokenLanguage = () => {
-  const { mostTenLang } = LanguagesAmount();
+  const { mostTenLang }=LanguagesAmount();
+  
   return (
     <div className="container">
       <div className="row justify-content-md-center">
