@@ -1,5 +1,8 @@
 ### Ülke Listesi / Istatistikleri Uygulaması
 [Live Preview](https://bootcamp-emreckmk-country-app.netlify.app/)
+
+##### uygulama kodları **country-app** klasorü altındadır.#####
+
 - Lütfen bu uygulamanızı React kullanarak yapın.
 - Bu uygulamada Create-React-App kullanarak bir başlangıç yapın.
 
